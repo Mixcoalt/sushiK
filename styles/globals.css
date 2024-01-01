@@ -1,0 +1,418 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contenido{
+    max-width: 2600px;
+    margin: 0 auto;
+} 
+
+.central{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+    border-width: 1px;
+    padding: 1.25rem;
+}
+
+.amarillo{
+    background-color: rgb(251 191 36) ;
+}
+
+.central:hover{
+    background-color: rgb(251 191 36);
+}
+
+.boton{
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: bold;
+}
+.boton:hover{
+    cursor: pointer;
+}
+
+.logo{
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.nav{
+    margin-top: 1.5rem;
+} 
+
+.inicio{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.br{
+    border-width: 1px;
+    padding: 0.75rem;
+}
+
+.card{
+    padding: 5;
+
+    h3{
+        font-weight: bold;
+        font-size: 1.25rem;
+       
+    }
+
+    p{
+        margin-top: 1.25rem;
+        font-weight: 900;
+        font-size: 2rem;
+        color: rgb(251 191 36);
+        
+    }
+}
+
+.btn{
+    background-color: rgb(70 79 229);
+    color: #fff;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1.75rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+}
+
+.btn:hover{
+    background-color: rgb(55 48 163);
+}
+
+.texto{
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+    margin-top: 5;
+}
+
+@media (min-width: 768px){
+    .div2{
+        width: 6.666667%;
+    }
+}
+
+.div1{
+    gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .div1{
+        display: flex;
+    }
+}
+
+@media (min-width: 768px){
+    .div{
+        width: 40%;
+    }
+}
+
+.producto{
+    margin-top: 1.25rem;
+    font-weight: 900;
+    font-size: 2rem;
+    color: rgb(251 191 36);
+}
+
+.boton_x{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.plus{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.cantidad{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.boton-agregar{
+    background-color: rgb(70 79 229);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 1rem;
+    font-size: 1rem;
+
+}
+
+.boton-agregar:hover{
+    background-color: rgb(55 48 163);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.letters{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.titulo-resumen{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 900;
+}
+
+.parrafo-resumen{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.barra{
+    background-color: rgb(243, 244, 246);
+    margin-bottom: 2.5rem;
+}
+
+.barra-r{
+    border-radius: 9999px;
+    background-color: rgb(251 191 36);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    line-height: 1;
+    height: 0.5rem;
+    text-align: center;
+    color: rgb(243, 244, 246);
+}
+
+.resumen-pedido{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.prodcuto{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.producto-nombre{
+    font-size: 1.825rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+}
+
+.prodcuto-cantidad{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.producto-precio{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: rgb(251 191 36);
+}
+
+.producto-subtotal{
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    color: rgb(55 65 81);
+}
+
+.producto-boton{
+    background-color: rgb(3 105 161);
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: #fff;
+    border-radius: 0.375rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    gap: 0.75rem;
+}
+
+.producto-boton:hover{
+    background-color: #8e8f57;
+    color: #000;
+}
+
+
+
+.producto-boton-red{
+    background-color: rgb(185 28 28);
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: #fff;
+    border-radius: 0.375rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    margin-top: 0.75rem;
+    gap: 0.75rem;
+}
+
+.producto-boton-red:hover{
+    background-color: #058076;
+    color: #de8273;
+}
+
+.formulario{
+    display: block;
+    text-transform: uppercase;
+    color: rgb(30 41 59);
+    font-weight: bold;
+    font-size: 1rem;
+    list-style: 1.75rem;
+    margin-top: 1rem;
+}
+
+.formulario-campo{
+    background-color: rgb(229 231 235);
+    width: 100%;
+    margin-top: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+@media (min-width: 1024px){
+    .formulario-campo{
+        width: 33.333333%;
+    }
+}
+
+.formulario-total{
+    margin-top: 2.5rem;
+
+    p{
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+}
+
+.span{
+    font-weight: bold;
+}
+
+
+.btn-a{
+    margin-top: 2.5rem;
+}
+
+.formulario-boton{
+    width: 100%;
+    border-radius: 0.50rem;
+    padding: 1.25rem 0.5rem 1.25rem 0.5rem;
+    text-transform: uppercase;
+   
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+@media (min-width: 1024px){
+    .formulario-boton{
+        width: auto;
+    }
+}
+
+.blanco{
+    background-color: rgb(229 231 235);
+    opacity: 1;
+}
+
+.azul{
+    background-color: rgb(79 70 229);
+}
+
+.azul:hover{
+    cursor: pointer;
+    background-color: rgb(251 191 36);
+}
+
+
+.layout-aside{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+@media (min-width: 768px){
+    .layout-principal{
+        display: flex;
+    }
+}
+
+@media (min-width: 768px){
+    .layout-aside{
+        width: 33.333333%;
+    }
+}
+
+@media (min-width: 1280px){
+    .layout-aside{
+        width: 25%;
+    }
+}
+
+@media (min-width: 1536px){
+    .layout-aside{
+        width: 20%;
+    }
+}
+
+.layout-main{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+@media (min-width: 768px){
+    .layout-main{
+        width: 66.666667%;
+    }
+}
+
+@media (min-width: 1280px){
+    .layout-main{
+        width: 75%;
+    }
+}
+
+@media (min-width: 1536px){
+    .layout-main{
+        width: 80%;
+    }
+}
+
+.layout-div{
+    padding: 2.5rem;
+}
