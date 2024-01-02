@@ -4,7 +4,7 @@ import { toast } from 'react-toastify'
 import  { formatearDinero } from '../helpers'
 
 export default function Orden({orden}){
-    const {id, nombre, direccion, total, pedido} = orden
+    const {id, nombre, direccion, telefono ,total, pedido} = orden
 
     const completarOrden = async () =>{
         try {
@@ -20,6 +20,7 @@ export default function Orden({orden}){
             <h3 className="text-2xl font-bold">Orden: {id}</h3>
             <p className="text-lg font-bold">Cliente: {nombre} </p>
             <p className="text-lg font-bold">Dirección: {direccion} </p>
+            <p className="text-lg font-bold"> Telefono: {telefono} </p>
 
             <div>
                 { pedido.map(platillo =>(

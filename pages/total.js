@@ -33,7 +33,7 @@ export default function Total(){
                 <label 
                 htmlFor="nombre"
                 className="formulario  text-slate-800">
-                    Nombre y numero de telfono
+                    Nombre
                 </label>
 
                 <input 
